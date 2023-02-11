@@ -74,6 +74,8 @@ th {
 .nav-li {
     text-decoration: none;
     font-weight: bold;
+    border-right: 1px solid grey;
+    padding-right: 20px;
 }
 
 .p3 {
@@ -159,3 +161,21 @@ button {
     display: flex;
     align-items: center;
 }
+
+.telDiv,
+.insta,
+.emailDiv {
+    padding-left: 15px;
+}
+
+/* .emailDiv { */
+/* margin-right: 743px;
+    margin-top: 20px;
+    position: fixed;
+} */
+
+/* .instaDiv {
+    float: right;
+    margin-right: 700px;
+    margin-top: 20px;
+} */
