@@ -65,17 +65,75 @@ th {
     background-color: lightpink;
 }
 
-ul {
+.nav-ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 
-li {
+.nav-li {
     text-decoration: none;
     font-weight: bold;
 }
 
 .p3 {
+    text-align: center;
+}
+
+#tourist1,
+#tourist2,
+#north2,
+#north1 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.pg2-mainDiv,
+.pg3-mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#hikeP,
+#northP {
+    border: 3px solid darkorchid;
+    height: 200px;
+    width: 300px;
+    margin-top: 0;
+    text-align: center;
+    background-color: bisque;
+    padding: 50px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 100px;
+    width: 362px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 315px;
+}
+
+.contact-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formP {
+    color: grey;
+    font-style: italic;
     text-align: center;
 }
