@@ -17,9 +17,10 @@ h1 {
 .description {
     background-color: coral;
     color: white;
-    height: 470px;
+    /* height: 470px; */
     padding: 10px;
     border: 1px solid black;
+    height: auto;
 }
 
 #north3 {
