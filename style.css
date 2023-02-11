@@ -52,3 +52,30 @@ h1 {
     clear: left;
     padding: 0 35px;
 }
+
+table {
+    border: 2px solid black;
+}
+
+th {
+    background-color: aqua;
+}
+
+#row1 {
+    background-color: lightpink;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p3 {
+    text-align: center;
+}
