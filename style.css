@@ -123,6 +123,7 @@ button {
     padding: 10px;
     border-radius: 4px;
     margin-left: 315px;
+    cursor: pointer;
 }
 
 .contact-div {
@@ -136,4 +137,25 @@ button {
     color: grey;
     font-style: italic;
     text-align: center;
+}
+
+.headingP {
+    margin-left: 25px;
+}
+
+.p-heading {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contact-logo {
+    width: 60px;
+}
+
+.contactDiv {
+    display: flex;
+    align-items: center;
 }
